@@ -86,6 +86,7 @@ int DemLonNhat(int a[][100], int n, int m)
 
 void LietKe(int a[][100], int n, int m)
 {
+	cout << "\nCac cot co nhieu chu so nhat: ";
 	int lc = DemLonNhat(a, n, m);
 	for (int j = 0; j < m; j++)
 		if (DemCot(a, n, m, j) == lc)
